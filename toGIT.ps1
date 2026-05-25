@@ -27,3 +27,4 @@ git commit -m "($deviceName) chore: workflow sync $timestamp"
 git push origin main
 
 Write-Host "Workflows pushed to GitHub."
+pause
