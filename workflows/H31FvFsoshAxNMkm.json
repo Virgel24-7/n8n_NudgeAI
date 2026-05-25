@@ -1,0 +1,108 @@
+{
+  "updatedAt": "2026-05-22T03:06:50.366Z",
+  "createdAt": "2026-04-09T07:49:45.816Z",
+  "id": "H31FvFsoshAxNMkm",
+  "name": "Nudge Redactor",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const body = $input.item.json.message || \"\";\n\nconst tokenMap = {};\nlet counter = 0;\n\nconst redacted = body\n  .replace(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}/g, (match) => {\n    const token = `__EMAIL_${counter++}__`;\n    tokenMap[token] = match;\n    return token;\n  })\n  .replace(/https?:\\/\\/[^\\s\"<>]+/g, (match) => {\n    const token = `__URL_${counter++}__`;\n    tokenMap[token] = match;\n    return token;\n  });\n\nreturn { \n  redactedBody: redacted,\n  tokenMap: tokenMap\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        496,
+        352
+      ],
+      "id": "776468f7-0d62-46d1-814e-a88649e33ab5",
+      "name": "Redact"
+    },
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "message"
+            }
+          ]
+        }
+      },
+      "id": "c055762a-8fe7-4141-a639-df2372f30060",
+      "typeVersion": 1.1,
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        272,
+        352
+      ]
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Redact",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false,
+    "binaryMode": "separate",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "6eba927b-407e-4eec-9cd7-ca3420545999",
+  "activeVersionId": "6eba927b-407e-4eec-9cd7-ca3420545999",
+  "versionCounter": 59,
+  "triggerCount": 0,
+  "tags": [
+    {
+      "updatedAt": "2026-04-21T11:40:32.921Z",
+      "createdAt": "2026-04-21T11:40:32.921Z",
+      "id": "AdmOOQj7jhgPkkAA",
+      "name": "Nudge"
+    },
+    {
+      "updatedAt": "2026-05-21T03:33:36.033Z",
+      "createdAt": "2026-05-21T03:33:36.033Z",
+      "id": "FDr9UduSpa2ppJVf",
+      "name": "Helper"
+    }
+  ],
+  "shared": [
+    {
+      "updatedAt": "2026-04-10T05:10:58.527Z",
+      "createdAt": "2026-04-10T05:10:58.527Z",
+      "role": "workflow:owner",
+      "workflowId": "H31FvFsoshAxNMkm",
+      "projectId": "VXfcZnGFqYTc0caj",
+      "project": {
+        "updatedAt": "2026-03-31T03:51:01.655Z",
+        "createdAt": "2026-03-31T03:39:10.641Z",
+        "id": "VXfcZnGFqYTc0caj",
+        "name": "Virgel Rai Torres <virgelraitorres@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "creatorId": "998f23c5-a629-46c0-be38-23d05e449824"
+      }
+    }
+  ],
+  "versionMetadata": {
+    "name": "Version 6eba927b",
+    "description": ""
+  }
+}
