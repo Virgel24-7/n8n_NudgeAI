@@ -1,6 +1,5 @@
-Synchronizer for N8N self-hosted thru Docker desktop
-
-Allows working of self-hosted n8n in different computers through Git repository.
+NudgeAI: Context-aware Ai-powered Email Follow up Agent
+N8N self-hosted through Docker desktop
 
 Initialization:
 
