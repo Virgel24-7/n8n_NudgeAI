@@ -6,7 +6,7 @@ Initialization:
 1. Create variables.ps1.
 2. Copy contents of variablestemplate.ps1 and paste in variables.ps1.
 3. Provide the new values.
-4. Run init.ps1
+4. Run toN8N.ps1
 
 ---
 
