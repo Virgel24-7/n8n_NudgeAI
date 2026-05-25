@@ -9,4 +9,4 @@ $repoLoc = "C:/path/to/this/folder"
 $deviceName = "Home Laptop"
 
 #Set to true if data is from Git
-$useGit = false
+$useGit = $false
