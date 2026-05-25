@@ -4,7 +4,7 @@
   "id": "JWLjZOyPtrSWZ9Ay",
   "name": "Nudge 2 Email Followup checker",
   "description": null,
-  "active": true,
+  "active": false,
   "isArchived": false,
   "nodes": [
     {
@@ -664,8 +664,8 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "26c33dd6-a4c4-465f-8ae1-40d3d6c94d78",
-  "activeVersionId": "26c33dd6-a4c4-465f-8ae1-40d3d6c94d78",
+  "versionId": "29ba4860-e13c-467c-8be5-6b3778892d2c",
+  "activeVersionId": null,
   "versionCounter": 351,
   "triggerCount": 1,
   "tags": [
@@ -678,20 +678,20 @@
   ],
   "shared": [
     {
-      "updatedAt": "2026-04-23T00:42:03.470Z",
-      "createdAt": "2026-04-23T00:42:03.470Z",
+      "updatedAt": "2026-05-25T05:15:01.009Z",
+      "createdAt": "2026-05-25T05:15:01.009Z",
       "role": "workflow:owner",
       "workflowId": "JWLjZOyPtrSWZ9Ay",
-      "projectId": "VXfcZnGFqYTc0caj",
+      "projectId": "BOSoaMaNdGZZCslO",
       "project": {
-        "updatedAt": "2026-03-31T03:51:01.655Z",
-        "createdAt": "2026-03-31T03:39:10.641Z",
-        "id": "VXfcZnGFqYTc0caj",
+        "updatedAt": "2026-05-25T05:16:34.580Z",
+        "createdAt": "2026-05-25T05:14:59.933Z",
+        "id": "BOSoaMaNdGZZCslO",
         "name": "Virgel Rai Torres <virgelraitorres@gmail.com>",
         "type": "personal",
         "icon": null,
         "description": null,
-        "creatorId": "998f23c5-a629-46c0-be38-23d05e449824"
+        "creatorId": "7b24808f-e7d4-4976-8061-5193dc3b0aa7"
       }
     }
   ],

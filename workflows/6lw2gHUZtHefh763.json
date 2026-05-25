@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-22T09:01:12.629Z",
+  "updatedAt": "2026-05-25T05:49:50.490Z",
   "createdAt": "2026-04-21T10:58:59.786Z",
   "id": "6lw2gHUZtHefh763",
-  "name": "Nudge Record data",
+  "name": "Nudge 1 Record data",
   "description": null,
-  "active": true,
+  "active": false,
   "isArchived": false,
   "nodes": [
     {
@@ -1069,9 +1069,9 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "6299a148-ddb9-4e3c-8939-5aefbd9a1c9b",
-  "activeVersionId": "16e0dc7e-4ddd-4122-8c24-9456ae42106c",
-  "versionCounter": 616,
+  "versionId": "6b0940f8-4540-4ee6-97c2-b2c38102dcb3",
+  "activeVersionId": null,
+  "versionCounter": 617,
   "triggerCount": 0,
   "tags": [
     {
@@ -1089,20 +1089,20 @@
   ],
   "shared": [
     {
-      "updatedAt": "2026-04-23T00:42:03.432Z",
-      "createdAt": "2026-04-23T00:42:03.432Z",
+      "updatedAt": "2026-05-25T05:15:00.983Z",
+      "createdAt": "2026-05-25T05:15:00.983Z",
       "role": "workflow:owner",
       "workflowId": "6lw2gHUZtHefh763",
-      "projectId": "VXfcZnGFqYTc0caj",
+      "projectId": "BOSoaMaNdGZZCslO",
       "project": {
-        "updatedAt": "2026-03-31T03:51:01.655Z",
-        "createdAt": "2026-03-31T03:39:10.641Z",
-        "id": "VXfcZnGFqYTc0caj",
+        "updatedAt": "2026-05-25T05:16:34.580Z",
+        "createdAt": "2026-05-25T05:14:59.933Z",
+        "id": "BOSoaMaNdGZZCslO",
         "name": "Virgel Rai Torres <virgelraitorres@gmail.com>",
         "type": "personal",
         "icon": null,
         "description": null,
-        "creatorId": "998f23c5-a629-46c0-be38-23d05e449824"
+        "creatorId": "7b24808f-e7d4-4976-8061-5193dc3b0aa7"
       }
     }
   ],

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-22T05:30:40.848Z",
+  "updatedAt": "2026-05-25T05:49:27.212Z",
   "createdAt": "2026-04-21T07:56:29.433Z",
   "id": "xfsV9xyR68q3ZHJb",
   "name": "Nudge 1 Check email",
   "description": null,
-  "active": true,
+  "active": false,
   "isArchived": false,
   "nodes": [
     {
@@ -312,7 +312,7 @@
       "typeVersion": 2,
       "position": [
         1824,
-        -1048
+        -1056
       ],
       "id": "4f5643db-0eb8-4573-9d19-357726b4a88f",
       "name": "Get parent"
@@ -619,9 +619,9 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "453db4c5-9a5d-4d91-9764-debf4dff7e5c",
-  "activeVersionId": "453db4c5-9a5d-4d91-9764-debf4dff7e5c",
-  "versionCounter": 533,
+  "versionId": "95b775e6-9bcd-4733-9f2a-fb150eed0a6d",
+  "activeVersionId": null,
+  "versionCounter": 535,
   "triggerCount": 1,
   "tags": [
     {
@@ -633,25 +633,25 @@
   ],
   "shared": [
     {
-      "updatedAt": "2026-04-23T00:42:03.492Z",
-      "createdAt": "2026-04-23T00:42:03.492Z",
+      "updatedAt": "2026-05-25T05:15:01.031Z",
+      "createdAt": "2026-05-25T05:15:01.031Z",
       "role": "workflow:owner",
       "workflowId": "xfsV9xyR68q3ZHJb",
-      "projectId": "VXfcZnGFqYTc0caj",
+      "projectId": "BOSoaMaNdGZZCslO",
       "project": {
-        "updatedAt": "2026-03-31T03:51:01.655Z",
-        "createdAt": "2026-03-31T03:39:10.641Z",
-        "id": "VXfcZnGFqYTc0caj",
+        "updatedAt": "2026-05-25T05:16:34.580Z",
+        "createdAt": "2026-05-25T05:14:59.933Z",
+        "id": "BOSoaMaNdGZZCslO",
         "name": "Virgel Rai Torres <virgelraitorres@gmail.com>",
         "type": "personal",
         "icon": null,
         "description": null,
-        "creatorId": "998f23c5-a629-46c0-be38-23d05e449824"
+        "creatorId": "7b24808f-e7d4-4976-8061-5193dc3b0aa7"
       }
     }
   ],
   "versionMetadata": {
-    "name": "Version 453db4c5",
-    "description": ""
+    "name": null,
+    "description": null
   }
 }

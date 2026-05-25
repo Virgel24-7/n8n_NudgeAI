@@ -4,7 +4,7 @@
   "id": "CTJriku4JvV2LFqf",
   "name": "Nudge Followup prompt",
   "description": null,
-  "active": true,
+  "active": false,
   "isArchived": false,
   "nodes": [
     {
@@ -151,8 +151,8 @@
       }
     ]
   },
-  "versionId": "4a4d5c0a-c5a6-428c-bffb-0142d61f3777",
-  "activeVersionId": "4a4d5c0a-c5a6-428c-bffb-0142d61f3777",
+  "versionId": "307d40a9-7a06-4d1b-985e-d54a884c0ab9",
+  "activeVersionId": null,
   "versionCounter": 230,
   "triggerCount": 0,
   "tags": [
@@ -171,20 +171,20 @@
   ],
   "shared": [
     {
-      "updatedAt": "2026-04-15T05:45:49.127Z",
-      "createdAt": "2026-04-15T05:45:49.127Z",
+      "updatedAt": "2026-05-25T05:15:00.996Z",
+      "createdAt": "2026-05-25T05:15:00.996Z",
       "role": "workflow:owner",
       "workflowId": "CTJriku4JvV2LFqf",
-      "projectId": "VXfcZnGFqYTc0caj",
+      "projectId": "BOSoaMaNdGZZCslO",
       "project": {
-        "updatedAt": "2026-03-31T03:51:01.655Z",
-        "createdAt": "2026-03-31T03:39:10.641Z",
-        "id": "VXfcZnGFqYTc0caj",
+        "updatedAt": "2026-05-25T05:16:34.580Z",
+        "createdAt": "2026-05-25T05:14:59.933Z",
+        "id": "BOSoaMaNdGZZCslO",
         "name": "Virgel Rai Torres <virgelraitorres@gmail.com>",
         "type": "personal",
         "icon": null,
         "description": null,
-        "creatorId": "998f23c5-a629-46c0-be38-23d05e449824"
+        "creatorId": "7b24808f-e7d4-4976-8061-5193dc3b0aa7"
       }
     }
   ],
