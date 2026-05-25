@@ -1,5 +1,7 @@
 # sync.ps1 - Export n8n workflows and push to GitHub
 
+Write-Host "toGIT.ps1 pushes to current branch"
+
 . .\variables.ps1
 $repoPath = $repoLoc + "\workflows"
 $exportPath = $repoLoc
@@ -24,7 +26,9 @@ Set-Location $exportPath
 git add .
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 git commit -m "($deviceName) chore: workflow sync $timestamp"
-git push origin main
 
-Write-Host "Workflows pushed to GitHub."
+$branch = git rev-parse --abbrev-ref HEAD
+git push -u origin $branch
+
+Write-Host "Pushed changes to branch $branch"
 pause

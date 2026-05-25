@@ -6,7 +6,7 @@ $containerName = "n8n"
 $repoLoc = "C:/path/to/this/folder"
 
 #Commit Differentiator among devices
-$deviceName = "Home Laptop"
+$deviceName = "Office"
 
 #Set to true if data is from Git
 $useGit = $false
